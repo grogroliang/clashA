@@ -1,20 +1,2 @@
 # APP自定义
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-SUFFIX,zjcdn.com
-DOMAIN-SUFFIX,bdurl.com
-DOMAIN-SUFFIX,toutiaostatic.com
-DOMAIN-SUFFIX,toutiaoimg.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,toutiaoapi.com
-DOMAIN-SUFFIX,toutiaovod.com
-DOMAIN-SUFFIX,bdxiguavod.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,bytegecko.com
-DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,douyinvod.com
+PROCESS-NAME,com.sup.android.superb
