@@ -1,2 +1,3 @@
 #自定义国外APP
-PROCESS-NAME,com.apkpuer.aegon
+PROCESS-NAME,com.apkpuer.aegon,
+DOMAIN-SUFFIX,v2free.org
