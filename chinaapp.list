@@ -1,7 +1,4 @@
 # 国内APP自定义
-PROCESS-NAME,com.sup.android.superb
-PROCESS-NAME,com.bilibili.app.in
-PROCESS-NAME,com.ss.android.article.video
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zjcdn.com
@@ -21,3 +18,4 @@ DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,bilibili.com
