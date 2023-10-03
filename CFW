@@ -20,3 +20,14 @@ parsers: # array
     commands:
       - proxy-groups.自动选择.proxies=[]proxyNames # 新建自动选择策略组
       - proxy-groups.🚀 节点选择.proxies.1+自动选择 #将自动选择策略组添加到节点选择
+
+- url: https://gsoustar.cloud/link/ZKkzmXTIBJlFWUAA?clash=1
+  yaml:
+    prepend-proxy-groups:
+      - name: 自动选择 # 建立新策略组
+        type: url-test
+        url: "http://www.gstatic.com/generate_204"
+        interval: 300
+    commands:
+      - proxy-groups.自动选择.proxies=[]proxyNames
+      - proxy-groups.Proxy.proxies.+自动选择
