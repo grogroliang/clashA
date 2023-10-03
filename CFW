@@ -18,5 +18,5 @@ parsers: # array
         url: "http://www.gstatic.com/generate_204"
         interval: 300
     commands:
-      - proxy-groups.自动选择.proxies=[]proxyNames
-      - proxy-groups.🚀 节点选择.proxies.1+自动选择
+      - proxy-groups.自动选择.proxies=[]proxyNames # 新建自动选择策略组
+      - proxy-groups.🚀 节点选择.proxies.1+自动选择 #将自动选择策略组添加到节点选择
