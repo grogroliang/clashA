@@ -1,0 +1,22 @@
+parsers: # array
+- url: https://gsoustar.cloud/link/ZKkzmXTIBJlFWUAA?clash=1
+  yaml:
+    append-proxy-groups:
+        - name: 🚀 节点选择
+          type: select
+          proxies:
+            - Proxy
+            - DIRECT
+    prepend-rules:
+        - DOMAIN-SUFFIX,csdn.net,🚀 节点选择
+        - DOMAIN-SUFFIX,doc88.com,🚀 节点选择         
+- url: https://v2rayshare.com/wp-content/uploads/2023/10/20231003.yaml
+  yaml:
+    prepend-proxy-groups:
+      - name: 自动选择 # 建立新策略组
+        type: url-test
+        url: "http://www.gstatic.com/generate_204"
+        interval: 300
+    commands:
+      - proxy-groups.自动选择.proxies=[]proxyNames
+      - proxy-groups.🚀 节点选择.proxies.1+自动选择
